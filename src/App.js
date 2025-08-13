@@ -3,7 +3,6 @@ import "./App.css";
 import "@aws-amplify/ui-react/styles.css";
 import { generateClient } from 'aws-amplify/api';
 import {
-  Button,
   Flex,
   Heading,
   Text,
