@@ -3,6 +3,7 @@ import "./App.css";
 import "@aws-amplify/ui-react/styles.css";
 import { generateClient } from 'aws-amplify/api';
 import {
+  Button,
   Flex,
   Heading,
   Text,
@@ -16,16 +17,9 @@ import {
   deleteNote as deleteNoteMutation,
 } from "./graphql/mutations";
 
-import { API, Storage } from 'aws-amplify';
+import { Storage } from 'aws-amplify';
 import {
-  Button,
-  Flex,
-  Heading,
   Image,
-  Text,
-  TextField,
-  View,
-  withAuthenticator,
 } from '@aws-amplify/ui-react';
 
 
