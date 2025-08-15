@@ -45,6 +45,8 @@ const App = ({ signOut }) => {
   setNotes(notesFromAPI);
 }
 
+//aaa
+
   async function createNote(event) {
   event.preventDefault();
   const form = new FormData(event.target);
